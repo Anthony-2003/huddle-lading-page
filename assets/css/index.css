@@ -137,6 +137,10 @@
         background-position: -10vw;
     }
 
+    .header{
+        padding-left: 3rem;
+    }
+
     .hero__img {
         padding-left: 2.5rem;
     }
@@ -197,7 +201,7 @@
 
     .body {
         background-image: url("../img/bg-mobile.svg");
-        background-position: 0vw -9vh;
+        background-position: 0vw -7vh;
         background-size: 100%;
     }
 
@@ -220,15 +224,18 @@
     }
 
     .hero__title {
+        font-size: 2rem;
         text-align: center;
     }
 
     .hero__paragraph {
         width: 90%;
+        font-size: 1.5rem;
         text-align: center;
     }
 
     .hero__btn {
+        font-size: 1.5rem;
         width: 40%;
     }
 
@@ -256,8 +263,17 @@
         width: 30%;
     }
 
+    .hero__title{
+        font-size: 1.5rem;
+    }
+
     .hero__paragraph {
-        width: 56%;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .hero__btn {
+        font-size: 1rem;
     }
 }
 
@@ -298,13 +314,28 @@
     }
 
     .hero__information {
-        margin-top: 0;
+        padding: 0;
+        padding-top: 1rem;
     }
 
     .hero__paragraph {
         width: 85%;
     }
+
+    .footer {
+        padding-left: 1rem;
+    }
 }
+
+/*------------------------------------360px----------------------------------*/
+
+@media (max-width:360px) {
+    .hero__information{
+        padding: 0;
+        padding-top: 3rem;
+    }
+}
+
 
 /*-------------------------------------------------320px-----------------------------------------------------------*/
 
@@ -316,7 +347,6 @@
 
     .hero__information{
         padding: 0;
-        padding-top: 2rem;
         padding-left: 1rem;
         padding-right: 1rem;
     }
